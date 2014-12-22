@@ -1,6 +1,6 @@
 {
   "name": "node-sass-loader",
-  "description": "A helper library for the node-sass module so.",
+  "description": "A helper library for the node-sass module. This provides a call to compile a directory to another directory.",
   "homepage": "https://github.com/Bill4Time/node-sass-loader",
   "keywords": [
     "node-sass",
