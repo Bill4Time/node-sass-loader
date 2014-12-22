@@ -27,5 +27,15 @@
     "node-sass": "^1.2.3",
     "wrench": "^1.5.8"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+   "maintainers": [
+    {
+      "name": "loganknecht",
+      "email": "loganknecht@gmail.com"
+    },
+    {
+      "name": "jzon",
+      "email": "jeremydiviney@gmail.com"
+    }
+  ], 
 }
