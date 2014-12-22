@@ -1,0 +1,31 @@
+{
+  "name": "node-sass-loader",
+  "description": "A helper library for the node-sass module so.",
+  "homepage": "https://github.com/Bill4Time/node-sass-loader",
+  "keywords": [
+    "node-sass",
+    "node",
+    "sass",
+    "loader"
+  ],
+  "author": "Logan Knecht <loganknecht@gmail.com>",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bill4Time/node-sass-loader"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bill4Time/node-sass-loader/issues"
+  },
+  "dependencies": {
+    "fs-helper": "^0.1.0",
+    "node-sass": "^1.2.3",
+    "wrench": "^1.5.8"
+  },
+  "devDependencies": {}
+}
