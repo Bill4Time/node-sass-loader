@@ -5,6 +5,15 @@ This is a node module created to extend functionality of the [node-sass module](
 
 This provides a simple function that takes in a source and a destination directory. Then it will traverse the source directory, compiling each file it finds. It will then place the compiled css into the correct output folder, relative to the source directory it was located in.
 
+## Installation
+```javascript
+// to install in the local directory
+npm install node-sass-loader
+
+// to install in the local directory and save to the package.json
+npm install node-sass-loader --save
+```
+
 ## Example Usage
 Pretend you have a directory
 
