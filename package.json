@@ -1,46 +1,42 @@
 {
-  "name": "node-sass-loader",
-  "description": "A helper library for the node-sass module. This provides a call to compile a directory to another directory.",
-  "homepage": "https://github.com/Bill4Time/node-sass-loader",
-  "keywords": [
-    "node-sass",
-    "node",
-    "sass",
-    "loader"
-  ],
-  "author": "Logan Knecht <loganknecht@gmail.com>",
-  "version": "0.1.4",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Bill4Time/node-sass-loader"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bill4Time/node-sass-loader/issues"
-  },
-  "dependencies": {
-    "fs-helper": "^0.1.0",
-    "lodash": "^2.4.1",
-    "node-sass": "^1.2.3",
-    "wrench": "^1.5.8"
-  },
-  "devDependencies": {},
-  "maintainers": [
-    {
-      "name": "loganknecht",
-      "email": "loganknecht@gmail.com"
+    "name": "node-sass-loader",
+    "description": "A helper library for the node-sass module. This provides a call to compile a directory to another directory.",
+    "homepage": "https://github.com/Bill4Time/node-sass-loader",
+    "keywords": [
+        "node-sass",
+        "node",
+        "sass",
+        "loader"
+    ],
+    "author": "Logan Knecht <loganknecht@gmail.com>",
+    "version": "0.1.5",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    {
-      "name": "jzon",
-      "email": "jeremydiviney@gmail.com"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Bill4Time/node-sass-loader"
     },
-    {
-      "name": "winhandelj",
-      "email": "jeff@goaldriven.com"
-    }
-  ]
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Bill4Time/node-sass-loader/issues"
+    },
+    "dependencies": {
+        "fs-helper": "^0.1.0",
+        "lodash": "^2.4.1",
+        "node-sass": "^1.2.3",
+        "wrench": "^1.5.8"
+    },
+    "devDependencies": {},
+    "maintainers": [{
+        "name": "loganknecht",
+        "email": "loganknecht@gmail.com"
+    }, {
+        "name": "jzon",
+        "email": "jeremydiviney@gmail.com"
+    }, {
+        "name": "winhandelj",
+        "email": "jeff@goaldriven.com"
+    }]
 }
