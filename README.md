@@ -58,5 +58,16 @@ The result is that the css folder will now have the css files and directory stru
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__default.scss  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__main.scss  
 
+### Using Include Paths
+If you wish to use the include paths property you can do so like this:
+```javascript
+// First load the module
+var nodeSassLoader = require('node-sass-loader');
+// Call the compilation
+nodeSassLoader.compile({ source_directory: '/Users/username/node project/sass'),
+                         destination_directory: '/Users/username/node project/css'),
+                         include_paths: [ /* array of paths here */ ] });
+```
+
 ## Additional Features
 If there are additional features or issues, please file an issue in the issues section of the repository. Or, feel free to create your own addition and file a pull request to integrate the features.
